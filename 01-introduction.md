@@ -22,7 +22,7 @@ exercises: 2
 
 
 This lesson explains some basics of the Metropolis Monte Carlo method.
-This is a lesson created via The Carpentries Workbench. It is written by collaborators from the [CoMSEF][comsef] community.
+This is a lesson created via The Carpentries Workbench. It is written by the [i-CoMSE][icomse] collaborators from the [CoMSEF][comsef] community
 
 We're going to provide some introduction for 
  1. Hands-on examples of small MC simulations
