@@ -7,7 +7,7 @@ sets the Learner needs to have installed.
 
 ## Data Sets
 
-Download the [data zip file](data/data.zip) and unzip it to your Desktop
+Download the [data zip file](data/data.zip) and unzip it to your Desktop. (Note this is a generic placeholder)
 
 ## Software Setup
 

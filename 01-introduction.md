@@ -1,39 +1,33 @@
 ---
-title: "Using RMarkdown"
+title: "Monte Carlo basics"
 teaching: 10
 exercises: 2
 ---
 
 :::::::::::::::::::::::::::::::::::::: questions 
 
-- How do you write a lesson using R Markdown and `{sandpaper}`?
+- What is the Metropolis Monte Carlo method?
+- What numbers can we calculate with stochastic sampling that we can't with analytic solutions?
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ::::::::::::::::::::::::::::::::::::: objectives
 
-- Explain how to use markdown with the new lesson template
-- Demonstrate how to include pieces of code, figures, and nested challenge blocks
+- Explain how an ensemble of random samples can be used to calculate an observable.
+- Derive the Metropolis acceptance criteria.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
 ## Introduction
 
-This is a lesson created via The Carpentries Workbench. It is written in
-[Pandoc-flavored Markdown][pandoc] for static files and
-[R Markdown][r-markdown] for dynamic files that can render code into output. 
-Please refer to the [Introduction to The Carpentries 
-Workbench][carpentries-workbench] for full documentation.
 
-What you need to know is that there are three sections required for a valid
-Carpentries lesson template:
+This lesson explains some basics of the Metropolis Monte Carlo method.
+This is a lesson created via The Carpentries Workbench. It is written by collaborators from the [CoMSEF][comsef] community.
 
- 1. `questions` are displayed at the beginning of the episode to prime the
-    learner for the content.
- 2. `objectives` are the learning objectives for an episode displayed with
-    the questions.
- 3. `keypoints` are displayed at the end of the episode to reinforce the
-    objectives.
+We're going to provide some introduction for 
+ 1. Hands-on examples of small MC simulations
+
+2. Introduction to software like CASSANDRA for larger-scale MC calculations.
 
 :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: instructor
 
@@ -46,19 +40,13 @@ associated with the lessons. They appear in the "Instructor View"
 
 ## Challenge 1: Can you do it?
 
-What is the output of this command?
-
-```r
-paste("This", "new", "lesson", "looks", "good")
-```
+How many microstates are there for a system of 2 distinguishable particles on a 10x10 grid?
 
 :::::::::::::::::::::::: solution 
 
-## Output
+## Solution
  
-```output
-[1] "This new lesson looks good"
-```
+Some number
 
 :::::::::::::::::::::::::::::::::
 
